@@ -36,20 +36,7 @@ This project supports full CRUD (Create, Read, Update, Delete) operations using 
 | DELETE | /jobs/{id}     | Delete a job posting |
 
 ---
-
-## Sample Request (POST /jobs)
-
-```json
-{
-  "title": "Software Engineer",
-  "description": "Backend role using Java and Spring Boot",
-  "minSalary": "80000",
-  "maxSalary": "120000",
-  "location": "New York"
-}
-Project Structure
-bash
-Copy code
+## Project Structure
 src/
  └── main/
       └── java/
@@ -69,3 +56,15 @@ Repository: Manages database operations using JPA
 
 Entity: Represents the Job data model
 
+
+
+## Sample Request (POST /jobs)
+
+```json
+{
+  "title": "Software Engineer",
+  "description": "Backend role using Java and Spring Boot",
+  "minSalary": "80000",
+  "maxSalary": "120000",
+  "location": "New York"
+} 
