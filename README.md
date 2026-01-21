@@ -69,26 +69,3 @@ Repository: Manages database operations using JPA
 
 Entity: Represents the Job data model
 
-What I Learned
-Building RESTful APIs with Spring Boot
-
-Implementing CRUD operations
-
-Controller–Service–Repository design pattern
-
-Dependency injection in Spring
-
-Persisting data using JPA and Hibernate
-
-Testing endpoints using Postman
-
-Future Improvements
-Add input validation and better error handling
-
-Change salary fields from String to numeric types
-
-Replace H2 with PostgreSQL
-
-Improve API response consistency
-
-Add authentication and authorization
